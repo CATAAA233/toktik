@@ -3,11 +3,11 @@ import 'package:toktik/domain/datasources/video_post_datasource.dart';
 import 'package:toktik/domain/entities/videos_post.dart';
 import 'package:toktik/domain/repositories/video_post_repository.dart';
 
-class VideoPostsRepository implements VideoPostRepository{
+class VideoPostsRepositoryImpl implements VideoPostRepository{
 
   final VideoPostDatasource videosDataSource;
 
-  VideoPostsRepository({
+  VideoPostsRepositoryImpl({
     required this.videosDataSource
   });
 
